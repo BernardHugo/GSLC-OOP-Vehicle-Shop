@@ -4,10 +4,10 @@ public abstract class Vehicle {
 	private String name, fuelType;
 	private int EnginePower, year, totalLamp, speed, price;
 	
-	// method yang akan digunakan untuk menampilkan data-data dari properti kendaraan yang sudah di isi
+	// Abstract method yang akan digunakan untuk menampilkan data-data dari properti kendaraan yang sudah di isi
 	public abstract String toString();
 	
-	// method yang akan digunakan untuk menampilkan total harga akhir dari sebuah kendaraan
+	// Abstract method yang akan digunakan untuk menampilkan total harga akhir dari sebuah kendaraan
 	public abstract void calcTotalPrice();
 	
 	public String getFuelType() {
